@@ -5,7 +5,11 @@
   <artifactId>Deleted</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Deleted Maven Webapp</name>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    <name>Deleted Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
